@@ -1,6 +1,4 @@
-# sigsce2024-demo
-
-# CS100: Introduction to Programming
+# [DEMO] CS100: Introduction to Programming
 
 ## Course Description
 

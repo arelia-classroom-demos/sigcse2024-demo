@@ -23,11 +23,9 @@ def get_player_name():
 
 def get_initial_choice():
   # TODO: Ask the player if they want to go to the mall or the beach
-  pass
 
 def print_message(name, location):
   # TODO: Print the message "name, you are at the location."
-  pass
 
 def main():
   player_name = get_player_name()

@@ -3,7 +3,7 @@ Desired outcome:
 What is your name?
 > Bob
 Do you want to go to the mall or the beach?
-> forest
+> mall
 Bob, you are at the mall.
 
 

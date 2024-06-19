@@ -24,5 +24,11 @@ class TestAdventureGame(unittest.TestCase):
     def test_get_initial_choice(self, mock_input):
         self.assertEqual(assignment1.get_initial_choice(), "mall")
 
+    @patch('builtins.input', side_effect=["Bob", "mall"])
+    def test_main_bob_mall(self):
+        with patch('builtins.print') as mocked_print:
+            main()
+            mocked_print.assert_called_with("Bob, you are at the mall.")
+
 if __name__ == "__main__":
     unittest.main()
